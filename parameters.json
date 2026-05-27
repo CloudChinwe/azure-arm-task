@@ -1,0 +1,49 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "apiVersion": {
+            "value": "2023-06-01"
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "extendedLocation": {
+            "value": {}
+        },
+        "publicIpAddressName": {
+            "value": "resource1"
+        },
+        "sku": {
+            "value": "Standard"
+        },
+        "publicIpAddressVersion": {
+            "value": "IPv4"
+        },
+        "publicIPAllocationMethod": {
+            "value": "Static"
+        },
+        "idleTimeoutInMinutes": {
+            "value": 4
+        },
+        "tier": {
+            "value": "Regional"
+        },
+        "ddosProtectionMode": {
+            "value": "VirtualNetworkInherited"
+        },
+        "domainNameLabel": {
+            "value": "resource1"
+        },
+        "zones": {
+            "value": [
+                "1",
+                "3",
+                "2"
+            ]
+        },
+        "tagsByResource": {
+            "value": {}
+        }
+    }
+}
